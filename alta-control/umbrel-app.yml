@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: alta-control
+category: networking
+name: Alta Control
+version: "1.0.0"
+tagline: Self-hosted network controller for Alta Labs devices
+description: >-
+  Alta Control is a self-hosted network controller for managing Alta Labs
+  networking equipment including access points and switches. Run your own
+  local instance instead of relying on the cloud-based manage.alta.inc service.
+
+
+  Features include device discovery and adoption, network configuration,
+  firmware management, and monitoring for your Alta Labs infrastructure.
+
+
+  Note: For automatic device discovery, your Umbrel device should be on the
+  same network as your Alta Labs equipment. Devices require firmware 2.0g+
+  (APs) or 2.1c+ (switches) to work with the local controller.
+developer: Alta Labs
+website: https://www.alta.inc/control
+dependencies: []
+repo: https://github.com/posix4e/alta-controller-umbrel
+support: https://forum.alta.inc
+port: 8444
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: posix4e
+submission: https://github.com/posix4e/alta-controller-umbrel

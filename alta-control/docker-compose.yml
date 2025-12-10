@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: alta-control_web_1
+      APP_PORT: 443
+      PROXY_PROTOCOL: https
+
+  web:
+    image: altalabs/control:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    ports:
+      - "8444:443"
+      - "6080:6080"
+      - "6443:6443"
+    environment:
+      TZ: ${TZ}
