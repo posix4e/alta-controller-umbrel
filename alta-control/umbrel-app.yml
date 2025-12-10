@@ -2,7 +2,7 @@ manifestVersion: 1
 id: alta-control
 name: Alta Control
 tagline: Self-hosted network controller for Alta Labs devices
-icon: https://svgur.com/i/mvA.svg
+icon: https://raw.githubusercontent.com/posix4e/alta-controller-umbrel/main/alta-control/icon.svg
 category: networking
 version: "1.0.0"
 port: 8444
