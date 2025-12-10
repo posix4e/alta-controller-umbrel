@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: alta-alta-control_web_1
+      APP_HOST: alta-control_web_1
       APP_PORT: 443
       PROXY_PROTOCOL: https
 
