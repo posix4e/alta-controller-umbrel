@@ -8,7 +8,7 @@ services:
       PROXY_PROTOCOL: https
 
   web:
-    image: altalabs/control:1.0d-arm64
+    image: altalabs/control:1.0d-amd64
     restart: on-failure
     stop_grace_period: 1m
     volumes:
